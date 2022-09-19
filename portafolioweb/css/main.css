@@ -1,0 +1,80 @@
+html, body { overflow-x: hidden;}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.banner{
+  background: url(../images/banner.jpg)fixed center/cover;
+  height: 700px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.banner::before{
+  content: " ";
+  height: 100%;
+  width: 100%;
+  background: #090909;
+  opacity: 0.8;
+}
+
+.banner_info{
+  padding: 0.3em;
+  position: absolute;
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  color: #FFF;
+  margin: auto;
+}
+.banner_title{
+  line-height: 1.5;
+  font-size: 2em;
+  font-family: sans-serif;
+}
+.banner_p{
+  line-height: 2;
+  font-size: 0.9em ;
+  font-family: sans-serif;
+}
+.container{
+    padding: 50px;
+    text-align: center;
+}
+
+.social-media{
+  margin: 1em;
+  height: 50px;
+  width: 50px;
+}
+.skills{
+  margin: 1em;
+  /* padding-left: 10em;
+  padding-right: 10em; */
+  text-align: center;
+  
+}
+.titulo{
+  text-align: center;
+  margin: 2em;
+}
+.tarjetas{
+  padding: 1em;
+  margin: 0;
+  text-align: center;
+}
+.card{
+  text-align: center;
+}
+
+/* div.row{
+   margin-right: 0px;
+}
+
+div.container-fluid{
+   padding-right: 0px;
+} */
